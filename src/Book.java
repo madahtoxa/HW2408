@@ -8,21 +8,21 @@ public class Book {
         this.bookYear = bookYear;
     }
 
-    public void setName(String name) {
+    private void setName(String name) {
         this.name = name;
     }
 
 
-    public void setBookYear(int bookYear) {
+    void setBookYear(int bookYear) {
         this.bookYear = bookYear;
     }
 
-    public String getName() {
+    private String getName() {
         return name;
     }
 
 
-    public int getBookYear() {
+    private int getBookYear() {
         return bookYear;
     }
 

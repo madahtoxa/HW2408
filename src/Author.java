@@ -2,24 +2,24 @@ public class Author {
     String name;
     String surname;
 
-    public Author(String name, String surname) {
+    Author(String name, String surname) {
         this.name = name;
         this.surname = surname;
     }
 
-    public String getName() {
+    private String getName() {
         return name;
     }
 
-    public String getSurname() {
+    private String getSurname() {
         return surname;
     }
 
-    public void setName(String name) {
+    private void setName(String name) {
         this.name = name;
     }
 
-    public void setSurname(String surname) {
+    private void setSurname(String surname) {
         this.surname = surname;
     }
 }
